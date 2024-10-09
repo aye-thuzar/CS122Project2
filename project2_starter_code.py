@@ -53,7 +53,7 @@ def display_description():
 
 
 def show_game_state(actors):
-    '''This function display which charcaters are on which bank.'''
+    '''This function displays which charcaters are on which bank.'''
     bank0 = ""
     bank1 = ""
     line="\n----------------------------------------\n"
@@ -79,7 +79,7 @@ def show_game_state(actors):
     
 
 def change_state(actors, char):
-    '''This function change move the characters based on the user input
+    '''This function change_state moves the characters based on the user input
     by simply toggling the booleans in the actor list.
     The farmer always moves move other characters or by himself. Each 
     character can only move to the other bank if they are on the same bank 
