@@ -20,7 +20,7 @@ def river_crossing_simulation():
 
     display_description()
 
-    # keep playing the game until you each the final state
+    # keep playing the game until you reach the final state
     # or a fail state
     while(has_reach_end_state(characters) < 1):
         show_game_state(characters)
